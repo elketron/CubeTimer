@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frontend", "Frontend\Frontend.csproj", "{64374FE8-16E7-425E-ABA8-83A1B16EFE40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeTimerData", "CubeTimerData\CubeTimerData.csproj", "{7EB7601A-1306-4E7E-A1F4-405ABE1C5D84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeTimerServices", "CubeTimerServices\CubeTimerServices.csproj", "{35C29B56-678A-4C60-B73F-C2AD9929632D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64374FE8-16E7-425E-ABA8-83A1B16EFE40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64374FE8-16E7-425E-ABA8-83A1B16EFE40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64374FE8-16E7-425E-ABA8-83A1B16EFE40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64374FE8-16E7-425E-ABA8-83A1B16EFE40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EB7601A-1306-4E7E-A1F4-405ABE1C5D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EB7601A-1306-4E7E-A1F4-405ABE1C5D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EB7601A-1306-4E7E-A1F4-405ABE1C5D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EB7601A-1306-4E7E-A1F4-405ABE1C5D84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35C29B56-678A-4C60-B73F-C2AD9929632D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C29B56-678A-4C60-B73F-C2AD9929632D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C29B56-678A-4C60-B73F-C2AD9929632D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C29B56-678A-4C60-B73F-C2AD9929632D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
