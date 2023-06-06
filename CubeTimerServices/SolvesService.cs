@@ -48,7 +48,7 @@ public class SolvesService
         var item = await _context.Solves.FirstOrDefaultAsync(s => s.Id == solve.Id);
         if (item != null)
         {
-            _context.Solves.Entry(item).CurrentValues.SetValues(solve);
+            item = solve;
             await _context.SaveChangesAsync();
             return true;
         }

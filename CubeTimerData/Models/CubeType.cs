@@ -3,7 +3,7 @@ namespace CubeTimerData.Models;
 
 public enum CubeTypes
 {
-    TwoByTwo,
+    TwoByTwo = 2,
     ThreeByThree,
     FourByFour,
     FiveByFive,

@@ -10,6 +10,8 @@ async function getScramble() {
   })
 }
 
+
+
 onMounted(() => {
   getScramble()
 })

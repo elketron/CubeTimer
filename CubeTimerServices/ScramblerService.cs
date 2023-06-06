@@ -32,7 +32,7 @@ public class ScramblerService
         }
 
         int movesDone = 0;
-        List<string> moves = GeneratePossibleMoves((int)Type + 2);
+        List<string> moves = GeneratePossibleMoves((int)Type);
 
         while (movesDone <= amountOfMoves)
         {
